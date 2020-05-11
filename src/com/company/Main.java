@@ -25,7 +25,7 @@ public class Main {
         wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("/html/head/title")));
 
 
-        // launch Fire fox and direct it to the Base URL
+        // launch chrome and direct it to the Base URL
 
         driver.get(baseUrl);
 
@@ -42,7 +42,7 @@ public class Main {
             System.out.println("Test Failed");
         }
 
-        //close Fire fox
+        //close chrome
         driver.close();
 
     }
